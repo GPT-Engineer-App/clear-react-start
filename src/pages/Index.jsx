@@ -1,13 +1,8 @@
 import React from "react";
-import { Box } from "@chakra-ui/react";
-import ColorTranslator from "../components/ColorTranslator";
+import ReactDOM from "react-dom/client";
 
 const Index = () => {
-  return (
-    <Box padding="20px">
-      <ColorTranslator />
-    </Box>
-  );
+  return <div>{}</div>;
 };
 
 export default Index;
